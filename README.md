@@ -22,7 +22,7 @@ Crumb & Co. is a bakery management system developed as part of the IMS566 indivi
 | Role | Username | Password |
 |---|---|---|
 | Admin / Staff | `admin` | `admin1122` |
-| Customer | `aisha` | `aisha000` |
+| Customer | `safia` | `safia123` |
 
 New customers can also register through `register.html` or by selecting **Create an account** on the login page.
 
