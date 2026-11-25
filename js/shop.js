@@ -190,7 +190,8 @@ if (session && session.role === "customer") {
     if (!name || !email) return profileMsg("danger", "Name and email are required.");
 
     // Check whether the email address follows a valid format
-    if (!/^[^\s@]+@[^\s@]+**\\.**[^\s@]+$/.test(email)) return profileMsg("danger", "Please enter a valid email address.");
+    
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return profileMsg("danger", "Please enter a valid email address.");
 
     // Find the customer's account and retrieve the customer records
     const users = Bakery.getUsers(), user = users.find(u => u.username === session.username);
